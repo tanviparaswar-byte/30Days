@@ -11,6 +11,6 @@ duplicatenum=a[j];
 }
 }
 }
-cout<<"Duplicate number is:"<<duplicatenum
+cout<<"Duplicate number is:"<<duplicatenum;
 return 0;
 }
