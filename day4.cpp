@@ -2,20 +2,19 @@
 #include <algorithm>
 using namespace std;
 int main() {
-int arr1[] = {1, 3, 5, 7};
-int arr2[] = {2, 4, 6, 8};
-int m = 4, n = 4;
-for (int i = 0; i < m; i++) {
-if (arr1[i] > arr2[0]) {
-swap(arr1[i], arr2[0]);
-sort(arr2, arr2 + n); 
-}
-}
-for (int i = 0; i < m; i++){
-cout << arr1[i] << " ";
+int a[]={1,3,5,7};
+int b[]={2,4,6,8};
+int m=4,n=4;
+for (inti=0;i<m;i++) {
+if (a[i]>b[0]) {
+swap(a[i],b[0]);
+sort(b,b+n); 
+}}
+for (int i=0;i<m;i++){
+cout <<a[i]<< " ";
 }
 for (int i = 0; i < n; i++){
-cout << arr2[i] << " ";
+cout <<b[i]<< " ";
 }
 return 0;
 }
